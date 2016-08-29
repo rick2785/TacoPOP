@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  TacoPOP
 //
-//  Created by Jack Davis on 7/25/16.
-//  Copyright © 2016 Devslopes. All rights reserved.
+//  Created by Rickey Hrabowskie on 8/26/16.
+//  Copyright © 2016 Rickey Hrabowskie. All rights reserved.
 //
 
 import UIKit
@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+//        DataService.instance.loadDeliciousTacoData()
         return true
     }
 
